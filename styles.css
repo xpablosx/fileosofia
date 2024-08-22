@@ -57,19 +57,14 @@ section {
     color: #ffffff
 }
 
-.video-container {
-    display: inline-block;
-    width: 30%;
-    margin: 10px;
-    background-color: #003b7a; /* Azul intermediário para contêineres */
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+img{
+    height: 150px;
 }
 
-.video-container iframe {
-    width: 100%;
-    height: 200px; /* Diminuído tamanho dos vídeos */
+.videos {
+display: flex;
+overflow-x: auto;
+gap: 10px;
 }
 
 .bio {
@@ -100,6 +95,5 @@ footer {
 }
 
 .imagem-container {
-    text-align: right; /* Alinha o conteúdo dentro do contêiner à direita */
-    margin-right: 100px;
+    text-align: center
 }
