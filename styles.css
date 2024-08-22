@@ -57,14 +57,22 @@ section {
     color: #ffffff
 }
 
-img{
-    height: 150px;
-}
-
 .videos {
+padding-top: 20px;
 display: flex;
 overflow-x: auto;
 gap: 10px;
+}
+
+.videos img{
+    opacity: 0.5;
+    height: 150px;
+    transition: opacity 0.3s ease;
+}
+
+.videos img:hover{
+opacity: 1.0;
+border: 1px;
 }
 
 .bio {
@@ -85,15 +93,7 @@ gap: 10px;
     text-decoration: underline;
 }
 
-footer {
-    background-color: #001b47; /* Azul mais escuro para o rodapé */
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2)
-}
-
 .imagem-container {
     text-align: center
 }
+
